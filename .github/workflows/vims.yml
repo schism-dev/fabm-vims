@@ -17,5 +17,5 @@ jobs:
         run: |
           mkdir $GITHUB_WORKSPACE/build
           cd $GITHUB_WORKSPACE/build
-          cmake $GITHUB_WORKSPACE/fabm -DFABM_HOST=gotm  -DFABM_INSTITUTES=vims -DFABM_vims_BASE=$GITHUB_WORKSPACE/fabm-vims
+          cmake $GITHUB_WORKSPACE/fabm -DFABM_HOST=schism  -DFABM_INSTITUTES=vims -DFABM_VIMS_BASE=$GITHUB_WORKSPACE/fabm-vims
           make
