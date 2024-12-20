@@ -32,6 +32,7 @@ Build test with build chain suggested above
 
 | System | Type     | Compiler | Status |
 |--------|----------|----------|--------|
+| studio | arm64   | conda/gfortranclang | yes |
 | quoll  | arm64   | gfortran |        |
 | femto  | x86-64   | ifort    |   yes   |
 | kuro   | x86-64   | intel/openmpi    | yes     |
